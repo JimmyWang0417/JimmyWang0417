@@ -1,6 +1,6 @@
-<h3 align="center">👋 Justin Chen's Profile</h3>
+<h3 align="center">👋 Jimmy Wang's Profile</h3>
 <p align="center">
-  <a href="https://ctj-notes.vercel.app">Blog</a> |
+  <a href="https://www.cnblogs.com/ctj12461">Blog</a> |
   <a href="mailto:2189535056@qq.com">Mail</a>
 </p>
 <hr/>
