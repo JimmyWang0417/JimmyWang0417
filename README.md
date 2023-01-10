@@ -21,8 +21,7 @@
  - An OIer
  - A C++ developer
  - A Linux lover & user
- - A Minecraft lover (especially restone & PVE & PVP)
- - A CSgo lover
+ - A Minecraft lover (especially restone)
 
 <!--
 **wangjunrui666/wangjunrui666** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
