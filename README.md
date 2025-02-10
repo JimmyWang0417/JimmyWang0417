@@ -6,9 +6,9 @@
 <hr/>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=whitepaperdog&count_private=true&show_icon=true&include_all_commits&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=jimmywang0417&count_private=true&show_icon=true&include_all_commits&hide_border=true"/>
 
-  <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=whitepaperdog&layout=compact&hide_border=true"/>
+  <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jimmywang0417&layout=compact&hide_border=true"/>
 </p>
 
 <p align="center">
