@@ -1,7 +1,7 @@
 <h3 align="center">👋 Jimmy Wang's Profile</h3>
 <p align="center">
   <a href="https://www.cnblogs.com/wangjunrui">Blog</a> |
-  <a href="mailto:2189535056@qq.com">Mail</a>
+  <a href="mailto:jimmywang0417@gmail.com">Mail</a>
 </p>
 <hr/>
 
