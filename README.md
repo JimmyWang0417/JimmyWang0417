@@ -173,9 +173,10 @@ I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my w
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/yan-xiaoo/XJTUToolBox">XJTUToolBox</a></h3>
-      <p>A widely used campus toolbox for attendance, timetables, course evaluation, and other XJTU services.</p>
+      <p>A widely used campus toolbox for attendance, timetables, course evaluation, and other XJTU services. My work focuses on Linux support, notification sources, AI assistants, and cross-platform reliability.</p>
       <p>
-        <img alt="Core Contributor" src="https://img.shields.io/badge/Role-Core_Contributor-7C3AED?style=flat-square" />
+        <img alt="Feature Contributor" src="https://img.shields.io/badge/Role-Feature_Contributor-7C3AED?style=flat-square" />
+        <img alt="Linux and AI" src="https://img.shields.io/badge/Focus-Linux_%26_AI-0E7490?style=flat-square" />
         <img alt="15 commits" src="https://img.shields.io/badge/Contributions-15_commits-16A34A?style=flat-square" />
         <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" />
         <img alt="XJTU" src="https://img.shields.io/badge/XJTU-991B1B?style=flat-square" />
@@ -186,12 +187,12 @@ I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my w
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/clyzcst/clyzcst.github.io">BibleCollection</a></h3>
-      <p>A maintained collection site and supporting toolchain for curated community content.</p>
+      <p>A maintained collection site and supporting toolchain for curated community content. I maintain its content workflow, site generation, theme integration, and GitHub Pages deployment.</p>
       <p>
-        <img alt="Core Contributor" src="https://img.shields.io/badge/Role-Core_Contributor-7C3AED?style=flat-square" />
+        <img alt="Project Maintainer" src="https://img.shields.io/badge/Role-Project_Maintainer-7C3AED?style=flat-square" />
+        <img alt="Content and Deployment" src="https://img.shields.io/badge/Focus-Content_%26_Deployment-B45309?style=flat-square" />
         <img alt="35 commits" src="https://img.shields.io/badge/Contributions-35_commits-16A34A?style=flat-square" />
         <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" />
-        <img alt="Content Collection" src="https://img.shields.io/badge/Content-Collection-B45309?style=flat-square" />
         <a href="https://github.com/clyzcst/clyzcst.github.io/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/clyzcst/clyzcst.github.io?style=flat-square&amp;label=Stars&amp;color=F59E0B" /></a>
       </p>
       <p><a href="https://github.com/clyzcst/clyzcst.github.io/commits?author=JimmyWang0417"><strong>View my contributions →</strong></a></p>
