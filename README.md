@@ -46,11 +46,11 @@
         <source media="(prefers-color-scheme: light)" srcset="./assets/icons/minecraft-light.svg" />
         <img src="./assets/icons/minecraft-light.svg" width="48" height="48" alt="Minecraft" />
       </picture><br />
-      <strong>Minecraft</strong><br /><sub>personal interest</sub>
+      <strong>Minecraft</strong><br /><sub>redstone &amp; building</sub>
     </td>
     <td align="center">
       <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/New-icpc-logo.png" width="43" height="43" alt="ICPC" />
-      <img src="https://cdn.simpleicons.org/codeforces/1F8ACB" width="43" height="43" alt="Codeforces" /><br />
+      <br />
       <strong>Competitive Programming</strong><br /><sub>contests &amp; templates</sub>
     </td>
     <td align="center">
@@ -80,14 +80,14 @@
   <h2>About me</h2>
 </div>
 
-I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my work lives around competitive programming, developer tools, Linux, and Minecraft as a hobby.
+I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my work lives around competitive programming, developer tools, Linux, and the occasional Minecraft redstone build.
 
 - 🎓 Software Engineering at Xi'an Jiaotong University
 - 🧩 Competitive programmer and algorithm enthusiast
 - 🛠️ Building with C++, Python, and JavaScript
 - 🤖 AI coding agents of choice: Codex and Claude Code
 - 🐧 Daily Linux user
-- ⚡ Minecraft hobbyist
+- ⚡ Minecraft redstone enjoyer
 
 <div align="center">
   <h2>GitHub at a glance</h2>
