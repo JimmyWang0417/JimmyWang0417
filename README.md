@@ -41,15 +41,16 @@
   </tr>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/minecraft.svg" width="48" height="48" alt="Minecraft" /><br />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./assets/icons/minecraft-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="./assets/icons/minecraft-light.svg" />
+        <img src="./assets/icons/minecraft-light.svg" width="48" height="48" alt="Minecraft" />
+      </picture><br />
       <strong>Minecraft</strong><br /><sub>redstone &amp; building</sub>
     </td>
     <td align="center">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./assets/icons/icpc-dark.svg" />
-        <source media="(prefers-color-scheme: light)" srcset="./assets/icons/icpc-light.svg" />
-        <img src="./assets/icons/icpc-light.svg" width="48" height="48" alt="Competitive Programming" />
-      </picture><br />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/New-icpc-logo.png" width="43" height="43" alt="ICPC" />
+      <img src="https://cdn.simpleicons.org/codeforces/1F8ACB" width="43" height="43" alt="Codeforces" /><br />
       <strong>Competitive Programming</strong><br /><sub>contests &amp; templates</sub>
     </td>
     <td align="center">
