@@ -117,26 +117,84 @@ I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my w
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/JimmyWang0417/Competitive-Programming-Templates">Competitive Programming Templates</a></h3>
+      <h3>01 · <a href="https://github.com/JimmyWang0417/Competitive-Programming-Templates">Competitive Programming Templates</a></h3>
       <p>A compact, documented C++ template library for contests—from data structures and graph theory to number theory and polynomials.</p>
-      <p><code>C++</code> <code>Algorithms</code> <code>Templates</code></p>
+      <p>
+        <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" />
+        <img alt="Algorithms" src="https://img.shields.io/badge/Algorithms-0E7490?style=flat-square" />
+        <img alt="Templates" src="https://img.shields.io/badge/Templates-16A34A?style=flat-square" />
+        <img alt="MIT License" src="https://img.shields.io/badge/License-MIT-7C3AED?style=flat-square" />
+      </p>
+      <p><a href="https://github.com/JimmyWang0417/Competitive-Programming-Templates/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/JimmyWang0417/Competitive-Programming-Templates?style=flat-square&amp;label=Stars&amp;color=F59E0B" /></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/JimmyWang0417/Algorithm-Competitive-Codes">Algorithm Competitive Codes</a></h3>
+      <h3>02 · <a href="https://github.com/JimmyWang0417/Algorithm-Competitive-Codes">Algorithm Competitive Codes</a></h3>
       <p>My long-running collection of solutions, experiments, and notes from online judges and programming contests.</p>
-      <p><code>C++</code> <code>OJ</code> <code>Problem Solving</code></p>
+      <p>
+        <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" />
+        <img alt="Online Judges" src="https://img.shields.io/badge/Online_Judges-B91C1C?style=flat-square" />
+        <img alt="Problem Solving" src="https://img.shields.io/badge/Problem_Solving-7C3AED?style=flat-square" />
+        <img alt="Code Archive" src="https://img.shields.io/badge/Code_Archive-475569?style=flat-square" />
+      </p>
+      <p><a href="https://github.com/JimmyWang0417/Algorithm-Competitive-Codes/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/JimmyWang0417/Algorithm-Competitive-Codes?style=flat-square&amp;label=Stars&amp;color=F59E0B" /></a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/JimmyWang0417/oj-activity-monitor">OJ Activity Monitor</a></h3>
+      <h3>03 · <a href="https://github.com/JimmyWang0417/oj-activity-monitor">OJ Activity Monitor</a></h3>
       <p>A browser-based dashboard for tracking recent submissions and solved problems across multiple online judges.</p>
-      <p><code>JavaScript</code> <code>Dashboard</code> <code>Tooling</code></p>
+      <p>
+        <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-1F2937?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" />
+        <img alt="Multi OJ" src="https://img.shields.io/badge/Multi--OJ-DC2626?style=flat-square" />
+        <img alt="Dashboard" src="https://img.shields.io/badge/Dashboard-0284C7?style=flat-square" />
+        <img alt="Browser Tool" src="https://img.shields.io/badge/Browser_Tool-16A34A?style=flat-square" />
+      </p>
+      <p><a href="https://github.com/JimmyWang0417/oj-activity-monitor/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/JimmyWang0417/oj-activity-monitor?style=flat-square&amp;label=Stars&amp;color=F59E0B" /></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/JimmyWang0417/XJTUSE-Courses">XJTUSE Courses</a></h3>
+      <h3>04 · <a href="https://github.com/JimmyWang0417/XJTUSE-Courses">XJTUSE Courses</a></h3>
       <p>Course documents and learning resources collected for Software Engineering students at XJTU.</p>
-      <p><code>Notes</code> <code>Resources</code> <code>XJTU</code></p>
+      <p>
+        <img alt="Course Notes" src="https://img.shields.io/badge/Course_Notes-0E7490?style=flat-square" />
+        <img alt="Resources" src="https://img.shields.io/badge/Resources-16A34A?style=flat-square" />
+        <img alt="XJTU" src="https://img.shields.io/badge/XJTU-991B1B?style=flat-square" />
+        <img alt="Software Engineering" src="https://img.shields.io/badge/Software_Engineering-7C3AED?style=flat-square" />
+      </p>
+      <p><a href="https://github.com/JimmyWang0417/XJTUSE-Courses/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/JimmyWang0417/XJTUSE-Courses?style=flat-square&amp;label=Stars&amp;color=F59E0B" /></a></p>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <h2>Core contributions</h2>
+</div>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/yan-xiaoo/XJTUToolBox">XJTUToolBox</a></h3>
+      <p>A widely used campus toolbox for attendance, timetables, course evaluation, and other XJTU services.</p>
+      <p>
+        <img alt="Core Contributor" src="https://img.shields.io/badge/Role-Core_Contributor-7C3AED?style=flat-square" />
+        <img alt="15 commits" src="https://img.shields.io/badge/Contributions-15_commits-16A34A?style=flat-square" />
+        <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" />
+        <img alt="XJTU" src="https://img.shields.io/badge/XJTU-991B1B?style=flat-square" />
+        <a href="https://github.com/yan-xiaoo/XJTUToolBox/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/yan-xiaoo/XJTUToolBox?style=flat-square&amp;label=Stars&amp;color=F59E0B" /></a>
+        <a href="https://github.com/yan-xiaoo/XJTUToolBox/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/yan-xiaoo/XJTUToolBox?style=flat-square&amp;label=Forks&amp;color=0284C7" /></a>
+      </p>
+      <p><a href="https://github.com/yan-xiaoo/XJTUToolBox/commits?author=JimmyWang0417"><strong>View my contributions →</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/clyzcst/clyzcst.github.io">BibleCollection</a></h3>
+      <p>A maintained collection site and supporting toolchain for curated community content.</p>
+      <p>
+        <img alt="Core Contributor" src="https://img.shields.io/badge/Role-Core_Contributor-7C3AED?style=flat-square" />
+        <img alt="35 commits" src="https://img.shields.io/badge/Contributions-35_commits-16A34A?style=flat-square" />
+        <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" />
+        <img alt="Content Collection" src="https://img.shields.io/badge/Content-Collection-B45309?style=flat-square" />
+        <a href="https://github.com/clyzcst/clyzcst.github.io/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/clyzcst/clyzcst.github.io?style=flat-square&amp;label=Stars&amp;color=F59E0B" /></a>
+      </p>
+      <p><a href="https://github.com/clyzcst/clyzcst.github.io/commits?author=JimmyWang0417"><strong>View my contributions →</strong></a></p>
     </td>
   </tr>
 </table>
