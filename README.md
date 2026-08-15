@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" width="100%" alt="Jimmy Wang — algorithms, systems and useful tools" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-banner-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-banner-light.svg" />
+  <img src="./assets/profile-banner-light.svg" width="100%" alt="Jimmy Wang — algorithms, systems and useful tools" />
+</picture>
 
 <br />
 
@@ -35,6 +39,27 @@ I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my w
 - ⚡ Minecraft redstone enjoyer
 
 <div align="center">
+  <h2>GitHub at a glance</h2>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/github-stats-light.svg" />
+    <img width="49%" alt="Jimmy Wang's GitHub contribution statistics and activity grade" src="./assets/github-stats-light.svg" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/top-languages-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/top-languages-light.svg" />
+    <img width="49%" alt="Most used languages across Jimmy Wang's public repositories" src="./assets/top-languages-light.svg" />
+  </picture>
+</div>
+
+<div align="center">
+  <sub>Updated automatically every day · Language percentages reflect public repository code volume, not proficiency.</sub>
+</div>
+
+<div align="center">
   <h2>Featured work</h2>
 </div>
 
@@ -61,6 +86,27 @@ I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my w
       <h3><a href="https://github.com/JimmyWang0417/XJTUSE-Courses">XJTUSE Courses</a></h3>
       <p>Course documents and learning resources collected for Software Engineering students at XJTU.</p>
       <p><code>Notes</code> <code>Resources</code> <code>XJTU</code></p>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <h2>Core contributions</h2>
+</div>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/yan-xiaoo/XJTUToolBox">XJTUToolBox</a></h3>
+      <p>A widely used XJTU toolbox for attendance, timetables, course evaluation, and other campus services.</p>
+      <p><strong>Core contributor · 15 commits</strong></p>
+      <p><code>Python</code> <code>XJTU</code> <code>Campus Services</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/clyzcst/clyzcst.github.io">Bible Collections</a></h3>
+      <p>A maintained collection site and supporting toolchain for curated community content.</p>
+      <p><strong>Core contributor · 35 commits</strong></p>
+      <p><code>Python</code> <code>Content Platform</code> <code>Tooling</code></p>
     </td>
   </tr>
 </table>
