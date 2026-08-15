@@ -49,7 +49,7 @@
       <strong>Minecraft</strong><br /><sub>redstone &amp; building</sub>
     </td>
     <td align="center">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/New-icpc-logo.png" width="43" height="43" alt="ICPC" />
+      <img src="https://codeforces.org/s/0/favicon-96x96.png" width="48" height="48" alt="Codeforces" />
       <br />
       <strong>Competitive Programming</strong><br /><sub>contests &amp; templates</sub>
     </td>
