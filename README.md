@@ -16,11 +16,56 @@
 
 <br /><br />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-stack-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/tech-stack-light.svg" />
-  <img src="./assets/tech-stack-light.svg" width="100%" alt="Core stack and tools: C++, Python, JavaScript, Linux, competitive programming, Codex, and Claude Code" />
-</picture>
+<table>
+  <tr>
+    <td align="center" width="20%">
+      <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" width="48" height="48" alt="C++" /><br />
+      <strong>C++</strong><br /><sub>algorithms &amp; systems</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" width="48" height="48" alt="Python" /><br />
+      <strong>Python</strong><br /><sub>automation &amp; tooling</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="48" height="48" alt="JavaScript" /><br />
+      <strong>JavaScript</strong><br /><sub>web &amp; dashboards</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/markdown/markdown.png" width="48" height="48" alt="Markdown" /><br />
+      <strong>Markdown</strong><br /><sub>notes &amp; documentation</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png" width="48" height="48" alt="Linux" /><br />
+      <strong>Linux</strong><br /><sub>daily environment</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/github/explore/d92924b1d925bb134e308bd29c9de6c302ed3beb/topics/terminal/terminal.png" width="48" height="48" alt="Terminal" /><br />
+      <strong>Terminal</strong><br /><sub>CLI workflows</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.simpleicons.org/codeforces/1F8ACB" width="48" height="48" alt="Competitive Programming" /><br />
+      <strong>Competitive Programming</strong><br /><sub>contests &amp; templates</sub>
+    </td>
+    <td align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./assets/icons/codex-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="./assets/icons/codex-light.svg" />
+        <img src="./assets/icons/codex-light.svg" width="48" height="48" alt="Codex" />
+      </picture><br />
+      <strong>Codex</strong><br /><sub>primary coding agent</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.simpleicons.org/claude/D97757" width="48" height="48" alt="Claude Code" /><br />
+      <strong>Claude Code</strong><br /><sub>coding agent</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.simpleicons.org/git/F05032" width="48" height="48" alt="Git" /><br />
+      <strong>Git</strong><br /><sub>version control</sub>
+    </td>
+  </tr>
+</table>
 
 </div>
 
