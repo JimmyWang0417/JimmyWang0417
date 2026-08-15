@@ -41,11 +41,15 @@
   </tr>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/github/explore/d92924b1d925bb134e308bd29c9de6c302ed3beb/topics/terminal/terminal.png" width="48" height="48" alt="Terminal" /><br />
-      <strong>Terminal</strong><br /><sub>CLI workflows</sub>
+      <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/minecraft.svg" width="48" height="48" alt="Minecraft" /><br />
+      <strong>Minecraft</strong><br /><sub>redstone &amp; building</sub>
     </td>
     <td align="center">
-      <img src="https://cdn.simpleicons.org/codeforces/1F8ACB" width="48" height="48" alt="Competitive Programming" /><br />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./assets/icons/icpc-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="./assets/icons/icpc-light.svg" />
+        <img src="./assets/icons/icpc-light.svg" width="48" height="48" alt="Competitive Programming" />
+      </picture><br />
       <strong>Competitive Programming</strong><br /><sub>contests &amp; templates</sub>
     </td>
     <td align="center">
