@@ -19,7 +19,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-stack-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/tech-stack-light.svg" />
-  <img src="./assets/tech-stack-light.svg" width="100%" alt="Core stack: C++, Python, JavaScript, Linux, and competitive programming" />
+  <img src="./assets/tech-stack-light.svg" width="100%" alt="Core stack and tools: C++, Python, JavaScript, Linux, competitive programming, Codex, and Claude Code" />
 </picture>
 
 </div>
@@ -35,6 +35,7 @@ I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my w
 - 🎓 Software Engineering at Xi'an Jiaotong University
 - 🧩 Competitive programmer and algorithm enthusiast
 - 🛠️ Building with C++, Python, and JavaScript
+- 🤖 AI coding agents of choice: Codex and Claude Code
 - 🐧 Daily Linux user
 - ⚡ Minecraft redstone enjoyer
 
