@@ -16,11 +16,11 @@
 
 <br /><br />
 
-<code>C++</code>&nbsp;
-<code>Python</code>&nbsp;
-<code>JavaScript</code>&nbsp;
-<code>Linux</code>&nbsp;
-<code>Competitive Programming</code>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-stack-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/tech-stack-light.svg" />
+  <img src="./assets/tech-stack-light.svg" width="100%" alt="Core stack: C++, Python, JavaScript, Linux, and competitive programming" />
+</picture>
 
 </div>
 
@@ -46,7 +46,7 @@ I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my w
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/github-stats-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/github-stats-light.svg" />
-    <img width="49%" alt="Jimmy Wang's GitHub contribution statistics and activity grade" src="./assets/github-stats-light.svg" />
+    <img width="49%" alt="Jimmy Wang's GitHub contribution statistics and GitHub Readme Stats rank" src="./assets/github-stats-light.svg" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/top-languages-dark.svg" />
@@ -56,7 +56,7 @@ I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my w
 </div>
 
 <div align="center">
-  <sub>Updated automatically every day · Language percentages reflect public repository code volume, not proficiency.</sub>
+  <sub>Updated automatically every day · Rank follows the <a href="https://github.com/anuraghazra/github-readme-stats#github-stats-card">GitHub Readme Stats</a> algorithm (not an official GitHub rating) · Languages use its default byte-count method.</sub>
 </div>
 
 <div align="center">

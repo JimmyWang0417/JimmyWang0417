@@ -26,13 +26,21 @@ async function yearlyContributions() {
   return Number(html.match(/([\d,]+)\s+contributions?\s+in the last year/i)?.[1]?.replaceAll(",", "") ?? 0);
 }
 
-function grade({ yearly, commits, prs, issues, stars }) {
-  const score = yearly * 0.55 + commits * 0.08 + prs * 4 + issues * 2 + stars * 3;
-  if (score >= 240) return "S";
-  if (score >= 160) return "A+";
-  if (score >= 100) return "A";
-  if (score >= 60) return "B+";
-  return "B";
+// Mirrors github-readme-stats/src/calculateRank.js.
+function rank({ commits, prs, issues, reviews, stars, followers }) {
+  const exponentialCdf = value => 1 - 2 ** -value;
+  const logNormalCdf = value => value / (1 + value);
+  const percentile = 100 * (1 - (
+    2 * exponentialCdf(commits / 1000) +
+    3 * exponentialCdf(prs / 50) +
+    exponentialCdf(issues / 25) +
+    exponentialCdf(reviews / 2) +
+    4 * logNormalCdf(stars / 50) +
+    logNormalCdf(followers / 10)
+  ) / 12);
+  const thresholds = [1, 12.5, 25, 37.5, 50, 62.5, 75, 87.5, 100];
+  const levels = ["S", "A+", "A", "A-", "B+", "B", "B-", "C+", "C"];
+  return { level: levels[thresholds.findIndex(value => percentile <= value)], percentile };
 }
 
 function statsSvg(theme, data) {
@@ -44,10 +52,10 @@ function statsSvg(theme, data) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="560" height="250" viewBox="0 0 560 250" role="img" aria-label="GitHub contribution statistics">
   <rect x="1" y="1" width="558" height="248" rx="18" fill="${c.bg}" stroke="${c.border}"/>
   <text x="28" y="43" fill="${c.title}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="20" font-weight="700">GitHub contribution overview</text>
-  <circle cx="495" cy="63" r="38" fill="${c.track}"/><text x="495" y="72" text-anchor="middle" fill="${c.accent}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="27" font-weight="700">${data.rank}</text><text x="495" y="119" text-anchor="middle" fill="${c.muted}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12">activity grade</text>
+  <circle cx="495" cy="63" r="38" fill="${c.track}"/><text x="495" y="72" text-anchor="middle" fill="${c.accent}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="27" font-weight="700">${data.rank.level}</text><text x="495" y="112" text-anchor="middle" fill="${c.muted}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10">GHS rank · top ${data.rank.percentile.toFixed(1)}%</text>
   <text x="28" y="82" fill="${c.text}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="28" font-weight="700">${data.yearly}</text><text x="28" y="104" fill="${c.muted}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13">contributions in the last year</text>
   ${rows.map(([label, value], i) => { const x = 28 + (i % 2) * 218; const y = 154 + Math.floor(i / 2) * 55; return `<circle cx="${x + 5}" cy="${y - 5}" r="5" fill="${c.accent}"/><text x="${x + 19}" y="${y}" fill="${c.text}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="18" font-weight="700">${value}</text><text x="${x + 19}" y="${y + 19}" fill="${c.muted}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12">${label}</text>`; }).join("")}
-  <text x="532" y="231" text-anchor="end" fill="${c.muted}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10">auto-updated · public data</text>
+  <text x="532" y="231" text-anchor="end" fill="${c.muted}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10">rank formula: github-readme-stats</text>
 </svg>`;
 }
 
@@ -65,29 +73,34 @@ function languagesSvg(theme, languages) {
   <text x="28" y="43" fill="${c.title}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="20" font-weight="700">Most used languages</text>
   <rect x="28" y="66" width="504" height="13" rx="6.5" fill="${c.track}"/><g clip-path="url(#bar)">${bar}</g><defs><clipPath id="bar"><rect x="28" y="66" width="504" height="13" rx="6.5"/></clipPath></defs>
   ${rows}
-  <text x="532" y="231" text-anchor="end" fill="${c.muted}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10">by bytes · public repositories</text>
+  <text x="532" y="231" text-anchor="end" fill="${c.muted}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10">default GHS method · size_weight=1</text>
 </svg>`;
 }
 
 const repos = await json(`https://api.github.com/users/${USER}/repos?per_page=100&type=owner`);
 const owned = repos.filter(repo => !repo.fork);
-const stars = owned.reduce((sum, repo) => sum + repo.stargazers_count, 0);
-const [yearly, commits, prs, issues] = await Promise.all([
+// github-readme-stats counts stars from all repositories with OWNER affiliation.
+const stars = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
+const profile = await json(`https://api.github.com/users/${USER}`);
+const [yearly, commits, prs, issues, reviews] = await Promise.all([
   yearlyContributions(),
   search(`author:${USER}`, "commits"),
   search(`author:${USER} type:pr`),
   search(`author:${USER} type:issue`),
+  search(`reviewed-by:${USER} type:pr`),
 ]);
 
 const languageTotals = new Map();
 for (const repo of owned) {
   if (!repo.languages_url) continue;
   const values = await json(repo.languages_url);
-  for (const [name, bytes] of Object.entries(values)) languageTotals.set(name, (languageTotals.get(name) ?? 0) + bytes);
+  // The upstream GraphQL query requests the ten largest languages per repository.
+  for (const [name, bytes] of Object.entries(values).slice(0, 10)) languageTotals.set(name, (languageTotals.get(name) ?? 0) + bytes);
 }
 const totalBytes = [...languageTotals.values()].reduce((a, b) => a + b, 0) || 1;
 const languages = [...languageTotals.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8).map(([name, bytes]) => ({ name, ratio: bytes * 100 / totalBytes }));
-const data = { yearly, commits, prs, issues, stars, rank: grade({ yearly, commits, prs, issues, stars }) };
+const data = { yearly, commits, prs, issues, reviews, stars, followers: profile.followers };
+data.rank = rank(data);
 
 await fs.mkdir("assets", { recursive: true });
 for (const theme of ["light", "dark"]) {
