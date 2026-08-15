@@ -47,7 +47,7 @@ I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my w
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/github-stats-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/github-stats-light.svg" />
-    <img width="49%" alt="Jimmy Wang's GitHub contribution statistics and GitHub Readme Stats rank" src="./assets/github-stats-light.svg" />
+    <img width="49%" alt="Jimmy Wang's GitHub contribution statistics and Activity Grade" src="./assets/github-stats-light.svg" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/top-languages-dark.svg" />
@@ -57,7 +57,7 @@ I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my w
 </div>
 
 <div align="center">
-  <sub>Updated automatically every day · Rank follows the <a href="https://github.com/anuraghazra/github-readme-stats#github-stats-card">GitHub Readme Stats</a> algorithm (not an official GitHub rating) · Languages use its default byte-count method.</sub>
+  <sub>Updated automatically every day · Activity Grade follows the <a href="https://github.com/anuraghazra/github-readme-stats#github-stats-card">github-readme-stats</a> algorithm · Languages use its default byte-count method.</sub>
 </div>
 
 <div align="center">
