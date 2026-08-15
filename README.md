@@ -46,7 +46,7 @@
         <source media="(prefers-color-scheme: light)" srcset="./assets/icons/minecraft-light.svg" />
         <img src="./assets/icons/minecraft-light.svg" width="48" height="48" alt="Minecraft" />
       </picture><br />
-      <strong>Minecraft</strong><br /><sub>redstone &amp; building</sub>
+      <strong>Minecraft</strong><br /><sub>personal interest</sub>
     </td>
     <td align="center">
       <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/New-icpc-logo.png" width="43" height="43" alt="ICPC" />
@@ -80,14 +80,14 @@
   <h2>About me</h2>
 </div>
 
-I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my work lives around competitive programming, developer tools, Linux, and the occasional Minecraft redstone build.
+I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my work lives around competitive programming, developer tools, Linux, and Minecraft as a hobby.
 
 - 🎓 Software Engineering at Xi'an Jiaotong University
 - 🧩 Competitive programmer and algorithm enthusiast
 - 🛠️ Building with C++, Python, and JavaScript
 - 🤖 AI coding agents of choice: Codex and Claude Code
 - 🐧 Daily Linux user
-- ⚡ Minecraft redstone enjoyer
+- ⚡ Minecraft hobbyist
 
 <div align="center">
   <h2>GitHub at a glance</h2>
@@ -137,27 +137,6 @@ I enjoy turning hard algorithmic ideas into concise, reusable code. Most of my w
       <h3><a href="https://github.com/JimmyWang0417/XJTUSE-Courses">XJTUSE Courses</a></h3>
       <p>Course documents and learning resources collected for Software Engineering students at XJTU.</p>
       <p><code>Notes</code> <code>Resources</code> <code>XJTU</code></p>
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  <h2>Core contributions</h2>
-</div>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/yan-xiaoo/XJTUToolBox">XJTUToolBox</a></h3>
-      <p>A widely used XJTU toolbox for attendance, timetables, course evaluation, and other campus services.</p>
-      <p><strong>Core contributor · 15 commits</strong></p>
-      <p><code>Python</code> <code>XJTU</code> <code>Campus Services</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/clyzcst/clyzcst.github.io">Bible Collections</a></h3>
-      <p>A maintained collection site and supporting toolchain for curated community content.</p>
-      <p><strong>Core contributor · 35 commits</strong></p>
-      <p><code>Python</code> <code>Content Platform</code> <code>Tooling</code></p>
     </td>
   </tr>
 </table>
